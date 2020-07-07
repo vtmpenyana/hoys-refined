@@ -248,8 +248,8 @@ body {
 }
 
 .image-holder img {
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   justify-self: end;
 }
