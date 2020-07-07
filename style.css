@@ -227,10 +227,10 @@ body {
 
 
 
+
+
 /*MEDIA QUERIES ^ */
-
-
-@media (max-width: 375px){
+@media (max-width: 375px), (max-width: 414px){
 
 .nav-items {
   display: none;
@@ -324,3 +324,21 @@ body {
 
   
 }
+/* 
+@media (max-width: 414px){
+  .nav-items {
+    display: none;
+  }
+
+  .tracker {
+    align-self: start;
+    margin-right: 200px;
+  }
+  
+  
+  .main-section {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+} */
