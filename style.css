@@ -324,6 +324,20 @@ body {
 
   
 }
+
+@media (max-width:320px) {
+  .sub-footer, .sub-nav, .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+
+  .social i {
+    font-size: 11px;
+  }
+}
 /* 
 @media (max-width: 414px){
   .nav-items {
